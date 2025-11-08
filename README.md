@@ -23,6 +23,8 @@ The main goals:
 
 **Dataset:** [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
 
+<!-- Image in the same directory -->
+![Dataset](./dataset.png)
 
 **Composition:**
 - **Total images:** 60,000  
@@ -57,22 +59,23 @@ The main goals:
 | Recall  | 0.3620 |
 | F1-Score | 0.3135 |
 
+![Value of Accuracy](./accuracy.png)
+![Value of Loss](./loss.png)
+## 📊 Classification Report
 
-Classification Report:
-      |   objects    | precision  |  recall | f1-score  | support |
-|--------:|:------:|:--------:|:------:|:--------|
-  |  airplane   |  0.6792  |  0.0720  |  0.1302   |   1000  |
-|  automobile   |  0.5975  |  0.3400   | 0.4334    |  1000|
-  |      bird   |  0.4654  |  0.0740  |  0.1277   |   1000|
-     |    cat   |  0.2450  |  0.1470  |  0.1837    |  1000|
-     |   deer   |  0.5116  |  0.0440  |  0.0810   |   1000|
-      |   dog   |  0.3737  |  0.4630  |  0.4136   |   1000|
-      |  frog    | 0.2527  |  0.8870   | 0.3933    |  1000|
-      | horse   |  0.7254  |  0.2510  |  0.3730   |   1000|
-     |   ship  |   0.3547  |  0.8200  |  0.4952   |   1000|
-    |   truck   |  0.4865  |  0.5220  |  0.5036    |  1000|
+| Class | Precision | Recall | F1-Score |
+|-------|-----------|--------|----------|
+| airplane | 0.6792 | 0.0720 | 0.1302 |
+| automobile | 0.5975 | 0.3400 | 0.4334 | 
+| bird | 0.4654 | 0.0740 | 0.1277 | 
+| cat | 0.2450 | 0.1470 | 0.1837 | 
+| deer | 0.5116 | 0.0440 | 0.0810 | 
+| dog | 0.3737 | 0.4630 | 0.4136 |
+| frog | 0.2527 | 0.8870 | 0.3933 |
+| horse | 0.7254 | 0.2510 | 0.3730 | 
+| ship | 0.3547 | 0.8200 | 0.4952 |
+| truck | 0.4865 | 0.5220 | 0.5036 |
 
----
 
 ## 📊 4. Visualizations
 - Training/validation loss and accuracy curves (via TensorBoard)
@@ -80,6 +83,7 @@ Classification Report:
 - Class-wise precision, recall, and F1 comparison
 - Sample predictions with confidence scores
 
+![Sample Predictions](./sample.png)
 ---
 
 ## Requirements
