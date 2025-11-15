@@ -1,4 +1,4 @@
-# Self-Supervised Learning on CIFAR-10 Dataset
+# Self-Supervised Learning на наборе данных CIFAR-10
 
 ## Обзор проекта
 
